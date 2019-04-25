@@ -1,0 +1,43 @@
+.wrapper {
+    max-width: 1080px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:floralwhite;
+    padding-right: 25px;
+    padding-left: 25px;
+    display: grid;
+    grid-gap: 25px;
+
+}
+
+body {
+    font-family: Arial, Geneva, sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 12px;
+    background-color: antiquewhite;
+}
+
+label{
+    font-family: "Ariel", Ariel, sans-serif;
+    font-size: 15px;
+}
+
+legend{
+    padding: 3px 5px;
+    font-family: "Ariel", Ariel, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+fieldset {
+  padding: 1em;
+  font:80%/1 sans-serif;
+  }
+
+textarea{
+	width: 20em;
+	height: 5em;
+	border: 1px solid black;
+	padding: 5px;
+}

@@ -1,0 +1,70 @@
+<html lang="en"><!--English language-->
+	
+    <head>
+		<meta charset="utf-8"><!--(Unicode) -->
+		<title>Contact Us</title><!--title-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/normalize.css" rel="stylesheet"><!--link to normalization page-->
+        <link href="css/styling.css" rel="stylesheet"><!--link to styling page-->
+	</head>
+
+<body>
+    
+	<div class="wrapper">
+	
+    <header>
+		<h1> Contact Us 📧</h1>
+        <h3>Please feel free to leave a feedback</h3>
+	</header>
+	
+        <div id="form"></div>
+        <form  id="myform">
+
+            <fieldset>
+                <legend>Your contact details</legend>
+                <label for="name">Name <em>(required)</em></label>
+                <input type="text" id="name" placeholder="your name" />
+                <label for="email">Email address <em>(required)</em></label>
+                <input type="text"  id="email" placeholder="your email"/>
+                <label for="url">Website URL</label>
+                <input type="text" id="url" value="http://"/>
+            </fieldset>
+            
+            <fieldset>
+                <label for="message">Your Message: </label>
+                <textarea id="message" required></textarea>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Would you like more information?</legend>
+                <label for="information-yes">
+                    <input type="radio" id="information-yes" name="information" value="yes" />Yes please</label>
+                    <label for="information-no">
+                    <input type="radio" id="information-no" name="information" value="no" checked />No thanks</label>
+            </fieldset>
+            <fieldset>
+                <legend>Please rate your experience out of 10:</legend>
+                <select name="rating">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </fieldset>
+
+            <input type="submit" value="Click to send" />
+        </form>
+
+	<footer>
+		<small>&copy; 2019</small>
+	</footer>
+
+	</div>
+</body>
+</html>
